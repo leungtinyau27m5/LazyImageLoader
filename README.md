@@ -24,8 +24,8 @@ for chrome or firefox img tag attribute loading="lazy" is supported, so you can 
 ```html
 <img src="{{path to image}}" loading="lazy" />
 ```
-Loading="lazy" For Your Reference Here
-web.dev: https://web.dev/browser-level-image-lazy-loading/
+Loading="lazy" For Your Reference Here <br>
+web.dev: https://web.dev/browser-level-image-lazy-loading/ <br>
 can I Use:  https://caniuse.com/loading-lazy-attr
 
 ## usage
