@@ -5,10 +5,11 @@
 ## Getting Started
 
 **important elements**
-- lazy.js
+- lazy.js 
 - lazy.css
-window must have 'IntersectionObserver'!!!! Otherwise, this Js doest nothing
+
 ```Javascript
+  //window must have 'IntersectionObserver'!!!! Otherwise, lazy.js doest nothing
   if (window.IntersectionObserver) { // to check if exits
     console.log('IntersectionObserver is On') } 
   else { //append polyfill to window to init IntersectionObserver
@@ -19,7 +20,7 @@ window must have 'IntersectionObserver'!!!! Otherwise, this Js doest nothing
   }
 ```
 **Alternatives**
-for chrome or firefox img tag attribute loading="lazy" is supported, so you can use something like without using JavaScript to perform lazy load!!
+for chrome or firefox img tag attribute loading="lazy" is supported, so you can use something like that without using JavaScript to perform lazy load!!
 ```html
 <img src="{{path to image}}" loading="lazy" />
 ```
